@@ -108,8 +108,12 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     padding: 13px 78px;
     border-radius: 5px;
+}
+.ecrf-btn-box > a{
+    margin-right: 4px;
 }
 
 /* ecrf-event-wrap */

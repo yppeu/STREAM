@@ -5,31 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>psychology</title>
     <!-- css -->
-    <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/psychology.css">
+    
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
     <!-- header -->
     <header>
-        <h1><a href="#"><img src="" alt="헤더 로고 이미지"></a></h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">소아고형암사업 소개
-                        <ul>
-                            <li><a href="#">인사말</a></li>
-                            <li><a href="#">목표 및 추진체계</a></li>
-                        </ul>
-                    </a>
-                </li>
-                <li><a href="#">주요사업안내</a></li>
-                <li><a href="#">사업현황</a></li>
-                <li><a href="#">알림마당</a></li>
-                <li><a href="#">CONTACT US</a></li>
-                <li><a href="#">마이페이지</a></li>
-            </ul>
-        </nav>
+        <div class="container-wrap">
+            <h1><a href="#"><img src="./img/hLogo.png" alt="헤더 로고 이미지"></a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">소아고형암사업 소개
+                            <ul class="sgnb">
+                                <li><a href="#">인사말</a></li>
+                                <li><a href="#">목표 및 추진체계</a></li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li><a href="#">주요사업안내</a></li>
+                    <li><a href="#">사업현황</a></li>
+                    <li><a href="#">알림마당</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="#">마이페이지</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- main -->
@@ -38,7 +47,7 @@
             <!-- main banner -->
             <div class="main-visual-wrap">
                 <div class="visual-img">
-                    <img src="./img/sub-psychology-banner.jpg" alt="메인 배너 이미지">
+                    <img src="./img/sub-psychology-banner.png" alt="메인 배너 이미지">
                 </div>
                 <div class="visual-text-box">
                     <p>About ECRF Psychology</p>
@@ -46,7 +55,7 @@
             </div>  
             <div class="target-wrap">
                 <div class="target-tit-box">
-                    <img src="" alt="사각형 이미지">
+                    <img src="./img/square.png" alt="사각형 이미지">
                     <p>목표 및 추진체계</p>
                 </div>
                 <p>소아고형암 정복사업은 소아고형암 진단 치료 플랫폼 구축 및 운영을 목표로 진행되고 있습니다.</p>
@@ -61,8 +70,7 @@
                 </div>
             </div>
             <div class="business-wrap">
-                <p>
-                    총 3개의 탑다운사업과 7개의 공모사업으로 구성되어 있으며<br>
+                <p>총 3개의 탑다운사업과 7개의 공모사업으로 구성되어 있으며<br>
                     아래와 같은 추진체계를 통해 전국규모 다기관이 참여하여<br>
                     소아 고형암 완치율 향상 전국 소아고형암 환자의 삶의 질 향상을 위한 정밀의료를 구축함.
                 </p>
@@ -74,39 +82,41 @@
     <!-- footer -->
     <footer>
         <div class="hospital-wrap">
-            <div class="hospital-list-box">
-                <ul>
-                    <li><a href="#">어린이병원</a></li>
-                    <li><a href="#">암병원</a></li>
-                    <li><a href="#">분당서울대병원</a></li>
-                    <li><a href="#">보라매병원</a></li>
-                    <li><a href="#">강남센터</a></li>
-                    <li><a href="#">서울대학교의과대학</a></li>
-                </ul>
-            </div>
-            <div class="hospital-major-box">
-                <ul>
-                    <li>
-                        <a href="#">진료과</a>
-                        <img src="" alt="세모 아이콘">
-                    </li>
-                    <li>
-                        <a href="#">주요센터</a>
-                        <img src="" alt="세모 아이콘">
-                    </li>
-                    <li>
-                        <a href="#">주요부서</a>
-                        <img src="" alt="세모 아이콘">
-                    </li>
-                    <li>
-                        <a href="#">주요서비스</a>
-                        <img src="" alt="세모 아이콘">
-                    </li>
-                    <li>
-                        <a href="#">패밀리사이트</a>
-                        <img src="" alt="세모 아이콘">
-                    </li>
-                </ul>
+            <div class="container-wrap">
+                <div class="hospital-list-box">
+                    <ul>
+                        <li><a href="#">어린이병원</a></li>
+                        <li><a href="#">암병원</a></li>
+                        <li><a href="#">분당서울대병원</a></li>
+                        <li><a href="#">보라매병원</a></li>
+                        <li><a href="#">강남센터</a></li>
+                        <li><a href="#">서울대학교의과대학</a></li>
+                    </ul>
+                </div>
+                <div class="hospital-major-box">
+                    <ul>
+                        <li>
+                            <a href="#">진료과</a>
+                            <img src="./img/arr.png" alt="세모 아이콘">
+                        </li>
+                        <li>
+                            <a href="#">주요센터</a>
+                            <img src="./img/arr.png" alt="세모 아이콘">
+                        </li>
+                        <li>
+                            <a href="#">주요부서</a>
+                            <img src="./img/arr.png" alt="세모 아이콘">
+                        </li>
+                        <li>
+                            <a href="#">주요서비스</a>
+                            <img src="./img/arr.png" alt="세모 아이콘">
+                        </li>
+                        <li>
+                            <a href="#">패밀리사이트</a>
+                            <img src="./img/arr.png" alt="세모 아이콘">
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="site-info-wrap">
@@ -123,22 +133,24 @@
             </ul>
         </div>
         <div class="company-info-wrap">
-            <div class="company-info-box">
-                <p>주소 : 03080 서울특별시 종로구 대학로101(연건동 28) 대표전화 : 1588-5700 홈페이지 의견접수</p>
-                <p>copyright 2023 seoul national university hospital. all rights reserved</p>
-            </div>
-            <div class="company-confirm-wrap">
-                <div class="company-confirm-box">
-                    <img src="" alt="">
-                    <span>전자의무기록시스템<br>EMR인증</span>
+            <div class="container-wrap">
+                <div class="company-info-box">
+                    <p>주소 : 03080 서울특별시 종로구 대학로101(연건동 28) 대표전화 : 1588-5700 홈페이지 의견접수</p>
+                    <p>copyright 2023 seoul national university hospital. all rights reserved</p>
                 </div>
-                <div class="company-confirm-box">
-                    <img src="" alt="">
-                    <span>보건복지부 제1호<br>인증의료기관</span>
-                </div>
-                <div class="company-confirm-box">
-                    <img src="" alt="">
-                    <span>정보보호관리체계<br>ISMS인증</span>
+                <div class="company-confirm-wrap">
+                    <div class="company-confirm-box">
+                        <img src="./img/certification1.png" alt="">
+                        <span>전자의무기록시스템<br>EMR인증</span>
+                    </div>
+                    <div class="company-confirm-box">
+                        <img src="./img/certification2.png" alt="">
+                        <span>보건복지부 제1호<br>인증의료기관</span>
+                    </div>
+                    <div class="company-confirm-box">
+                        <img src="./img/certification3.png" alt="">
+                        <span>정보보호관리체계<br>ISMS인증</span>
+                    </div>
                 </div>
             </div>
         </div>
