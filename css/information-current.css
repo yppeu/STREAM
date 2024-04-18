@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    letter-spacing: -0.3px;
+    font-family: 'Pretendard-Regular', 'Playfair Display', sans-serif; 
+}
+
+.main-visual-wrap{
+    position: relative;
+    margin-top: 83px;
+    margin-bottom: 104px;
+}
+.visual-img > img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+.visual-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.visual-text-box > p{
+    font-size: 80px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: -1px;
+}
+.major-business-tit-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px;
+    margin-bottom: 58px;
+}
+.major-business-tit-box > img{
+    margin-right: 20px;
+}
+.major-business-tit-box > p{
+    font-size: 36px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+.current-date-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 42px;
+}
+.current-date-wrap > input:first-child{
+    margin-right: 26px;
+}
+.current-img-box{
+    text-align: center;
+    margin-bottom: 588px;
+}
