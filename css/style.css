@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    letter-spacing: -0.3px;
+    font-family: 'Pretendard-Regular';
+}
+
+
+/* 공통 */
+.container-wrap{
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+/* header */
+header{
+    color: #405757;
+    font-weight: bold;
+    border-bottom: 1px solid #dfdfdf;
+}
+header > .container-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 43px 23px;
+}
+header > .container-wrap > nav > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header > .container-wrap > nav > ul > li:not(:last-child){
+    margin-right: 44px;
+}
+.sgnb{
+    display: none;
+}
+
+
+/* footer */
+.hospital-wrap{
+    background: #24263b;
+    color: #fff;
+}
+.site-info-wrap,
+.company-info-wrap{
+    background: #31354e;
+    color: #fff;
+}
+.hospital-wrap > .container-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hospital-list-box{
+    margin-right: 122px;
+}
+.hospital-list-box > ul > li{
+    padding: 20px 0;
+}
+.hospital-list-box > ul > li:not(:last-child){
+    margin-right: 10px;
+}
+.hospital-list-box > ul > li > a:not(:last-child){
+    margin-right: 10px;
+}
+.hospital-list-box > ul > li{
+    position: relative;
+}
+.hospital-list-box > ul > li:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 10px;
+    background: #33354a;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.hospital-list-box > ul > li > a{
+    margin-right: 10px;
+}
+.hospital-list-box > ul,
+.hospital-major-box > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hospital-major-box{
+    padding: 20px 0;
+}
+.hospital-major-box > ul > li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #969aa6;
+}
+.hospital-major-box > ul > li > img{
+    margin-left: 6px;
+}
+.hospital-major-box > ul > li:not(:last-child){
+    margin-right: 10px;
+}
+.site-info-wrap > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #21253e;
+    color: #cbc3ce;
+}
+.site-info-wrap > ul > li:nth-child(1),
+.site-info-wrap > ul > li:nth-child(3){
+    color: #8cdaff;
+}
+.site-info-wrap > ul > li:not(:last-child){
+    margin-right: 34px;
+}
+.company-info-wrap > .container-wrap{
+    padding: 32px 0 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.company-confirm-wrap,
+.company-confirm-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.company-info-box{
+    color: #cbc3ce;
+    line-height: 1.6;
+}
+.company-confirm-box{
+    color: #cbc3ce;
+}
+.company-confirm-box > img{
+    margin-right: 6px;
+}
+.company-confirm-box:not(:last-child){
+    margin-right: 32px;
+}
