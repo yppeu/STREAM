@@ -14,6 +14,7 @@ body{
 .main-visual-wrap{
     position: relative;
     margin-top: 83px;
+    margin-bottom: 104px;
 }
 .visual-img > img{
     border-radius: 20px;
@@ -32,4 +33,94 @@ body{
     font-size: 80px;
     font-family: "Playfair Display", serif;
     letter-spacing: -1px;
+}
+.major-business-tit-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px;
+    margin-bottom: 58px;
+}
+.major-business-tit-box > img{
+    margin-right: 20px;
+}
+.major-business-tit-box > p{
+    font-size: 36px;
+    letter-spacing: -1px;
+}
+.major-business-con{
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+    line-height: 1.6;
+    margin-bottom: 68px;
+}
+.contest-business-card-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 176px;
+}
+.contest-business-card-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.contest-business-box{
+    width: 356px;
+    margin-right: 36px;
+    border: 1px solid #787878;
+    margin-bottom: 33px;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.contest-business-box > p{
+    background: #15a58f;
+    padding: 16px 0;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* .contest-business-box:nth-child(2){
+    padding-left: 20px;
+    padding-right: 20px;
+} */
+.professor-profile-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+    margin-bottom: 30px;
+}
+.professor-profile-box > img{
+    width: 150px;
+    height: 180px;
+    margin-right: 18px;
+}
+.professor-txt-box > p:first-child{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.professor-txt-box > p:last-child{
+    font-size: 16px;
+}
+.professor-box{
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #f2f2f2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.professor-box > p{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
 }
