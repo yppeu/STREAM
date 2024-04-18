@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    letter-spacing: -0.3px;
+    font-family: 'Pretendard-Regular', 'Playfair Display', sans-serif; 
+}
+
+
+.main-visual-wrap{
+    position: relative;
+    margin-top: 83px;
+    margin-bottom: 104px;
+}
+.visual-img > img{
+    border-radius: 20px;
+    max-width: 100%;
+}
+.visual-text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.visual-text-box > p{
+    font-size: 80px;
+    font-family: "Playfair Display", serif;
+    letter-spacing: -1px;
+}
+.reference-tit-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 104px;
+    margin-bottom: 58px;
+}
+.reference-tit-box > img{
+    margin-right: 20px;
+}
+.reference-tit-box > p{
+    font-size: 36px;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+.contact-wrap{
+    margin-bottom: 148px;
+}
+.board-tit,
+.board-date-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.board-tit{
+    font-weight: bold;
+    color: #a66d3f;
+    padding: 15px 0;
+    font-size: 20px;
+    border-top: 1px solid #a66d3f;
+    border-bottom: 1px solid #a66d3f;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.board-date-box{
+    font-size: 18 px;
+    color: #565656;
+    border-top: 1px solid #a66d3f;
+    border-bottom: 1px solid #a66d3f;
+    padding: 15px 0;
+    padding-left: 70px;
+    padding-right: 50px;
+    cursor: pointer;
+}
+.board-date-box:nth-child(1),
+.board-date-box:nth-child(2),
+.board-date-box:nth-child(3),
+.board-date-box:nth-child(4),
+.board-date-box:nth-child(5){
+    border-top: none;
+}
+.board-date-box > p:nth-child(2){
+margin-left: 36px;
+}
+.num-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    color: #999999;
+    cursor: pointer;
+}
+.num-box > img{
+    opacity: 60%;
+}
+.num-box > img:first-child{
+    margin-right: 20px;
+}
+.num-box > img:last-child{
+    margin-left: 20px;
+}
+.num-box > p:not(:last-child){
+    margin-right: 20px;
+}
