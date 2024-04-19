@@ -245,21 +245,59 @@ body{
         }
         .ecrf-card-wrap{
             flex-wrap: wrap;
+            margin: 0 50px;
+            margin-bottom: 70px !important;
+        }
+        .ecrf-event-wrap > img{
+            display: none;
+        }
+        .ecrf-event-title-box,
+        .ecrf-event-text-con{
+            justify-content: center;
+        }
+        .ecrf-event-wrap{
+            box-shadow: initial;
         }
         .ecrf-tit-box{
             border-top: 1px solid #d9d9d9;
             padding-top: 60px;
+        }
+        .sponsor-wrap{
+            margin: 92px 22px;
+            padding: 0;
+        }
+        .sponsor-tit-box > p:first-child{
+            font-size: 30px;
+        }
+        .sponsor-tit-box > p:last-child{
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        .sponsor-banner-box > img{
+            width: 76px;
+        }
+        .ecrf-event-box{
+            padding-right: 0;
         }
         .ecrf-tit-box > p:first-child{
             font-size: 30px;
         }
         .ecrf-tit-box > p:last-child{
             font-size: 16px;
+            margin-bottom: 32px;
         }
         .ecrf-card-box{
-            width: 280px;
             margin-right: 0 !important;
             padding: 53px;
+        }
+        .ecrf-card-text-box > p:nth-child(1){
+            font-size: 23px;
+        }
+        .ecrf-card-text-box > p{
+            font-size: 14px;
+        }
+        .ecrf-btn-box{
+            padding: 10px 16px;
         }
         .ecrf-card-box:not(:last-child){
             margin-bottom: 18px;
@@ -268,17 +306,20 @@ body{
             flex-direction: column !important;
         }
         .sponsor-banner-wrap{
-            box-sizing: border-box;
-        }
-        .sponsor-banner-box{
-            width: 157px;
+            margin: 42px 22px;
+            box-sizing: border-box !important;
         }
         .sponsor-banner-box:nth-child(3){
             display: none;
         }
         .sponsor-banner-box{
-            width: 156px !important;
             padding: 20px 44px;
+        }
+        .sponsor-banner-box:not(:last-child){
+            margin-right: 20px;
+        }
+        .sponsor-banner-box:nth-child(2){
+            margin-right: 0;
         }
     .main-visual-wrap{
         flex-direction: column;
