@@ -12,6 +12,13 @@ body{
     font-family: 'Pretendard-Regular';
 }
 
+/* 모바일 */
+.ham,
+.mhospital-list-box,
+.msite-info-list{
+    display: none;
+}
+
 
 /* 공통 */
 .container-wrap{
@@ -151,3 +158,71 @@ header > .container-wrap > nav > ul > li:not(:last-child){
 .company-confirm-box:not(:last-child){
     margin-right: 32px;
 }
+
+
+/* 모바일 */
+@media screen and (min-width:340px) and (max-width:400px){
+    /* header */
+    nav{
+        display: none;
+    }
+    .ham{
+        display: block;
+    }
+    header{
+        max-width: 100%; 
+    }
+    /* main */
+    .visual-img{
+        width: 100% !important; 
+    }
+    .visual-img > img{
+        width: 380px;
+    }
+    .ecrf-card-wrap{
+        flex-wrap: wrap;
+    }
+    .ecrf-event-wrap{
+        flex-direction: column !important;
+    }
+    .sponsor-banner-box:nth-child(3){
+        display: none;
+    }
+    .sponsor-banner-box{
+        width: 156px;
+    }
+    .sponsor-banner-box > img{
+        width: 76px;
+    }
+
+    /* footer */
+    footer{
+        width: 100%;
+    }
+    .hospital-list-box,
+    .hospital-major-box{
+        display: none;
+    }
+    .mhospital-list-box{
+        display: flex;
+        flex-direction: row;
+    }
+    .msite-info-list{
+        display: block;
+    }
+    .site-info-wrap > ul{
+        display: none;
+    }
+    .company-confirm-wrap{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+

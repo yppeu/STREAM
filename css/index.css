@@ -12,7 +12,6 @@ body{
     font-family: 'Pretendard-Regular';
 }
 
-
 /* main */
 .main-visual-wrap{
     display: flex;
@@ -197,4 +196,17 @@ body{
 }
 .sponsor-banner-box:not(:last-child){
     margin-right: 40px;
+}
+
+
+/* 모바일 */
+@media screen and (min-width:340px) and (max-width:400px){
+    header > .container-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-visual-wrap{
+        flex-direction: column;
+    }
 }
