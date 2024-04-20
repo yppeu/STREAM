@@ -344,9 +344,36 @@ body{
             margin-right: 20px;
         }
         .sponsor-banner-box:nth-child(2){
-            margin-right: 0;
+            margin-right: 0; 
         }
-    .main-visual-wrap{
-        flex-direction: column;
-    }
+        .main-visual-wrap{
+            flex-direction: column;
+        }
+        .hospital-wrap{
+            background: #142e4b;
+            padding: 0 40px;
+            color: #b1d7ec;
+            font-size: 13px;
+        }
+        .hospital-wrap > .container-wrap{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .mospital-text-box > a{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 0;
+        }
+        .mospital-text-box:first-child > a{
+            border-right: 1px solid #666666;
+            padding-right: 36px;    
+            margin-right: 36px;    
+        }
+        .mospital-text-box > a > p{
+            margin-right: 6px;
+        }
 }
