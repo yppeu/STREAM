@@ -22,7 +22,9 @@ body{
 .ham,
 .mhospital-list-box,
 .msite-info-list,
-.visual-text-h{
+.visual-text-h,
+.msite-info-list2,
+.mcompany-copy{
     display: none;
 }
 
@@ -192,13 +194,106 @@ header > .container-wrap > nav > ul > li:not(:last-child){
         display: flex;
         flex-direction: row;
     }
-    .msite-info-list{
-        display: block;
-    }
+    .site-info-wrap,
     .site-info-wrap > ul{
         display: none;
     }
     .company-confirm-wrap{
+        display: none;
+    }
+    .hospital-wrap{
+        background: #142e4b;
+        padding: 0 40px;
+        color: #b1d7ec;
+        font-size: 13px;
+    }
+    .hospital-wrap > .container-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .mospital-text-box > a{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 0;
+    }
+    .mospital-text-box:first-child > a{
+        border-right: 1px solid #666666;
+        padding-right: 36px;    
+        margin-right: 36px;    
+    }
+    .mospital-text-box > a > p{
+        margin-right: 6px;
+    }
+    .msite-info-list{
+        display: block;
+        background: #1d3b5f;
+        color: #fff;
+        padding: 16px 50px;
+        font-size: 13px;
+        border-bottom: 1px solid #666666;
+    }
+    .msite-info-list > ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .msite-info-list > ul > li{
+        margin-right: 13px;
+        padding-right: 13px;
+        border-right: 1px solid #666666;
+    }
+    .msite-info-list > ul > li:last-child{
+        border: none;
+        margin-right: 0;
+        padding-right: 0;
+    }
+    .company-info-wrap > .container-wrap{
+        background: #1d3b5f;
+        color: #fff;
+        padding: 16px 50px;
+    }
+    .msite-info-list2{
+        display: block;
+        padding: 16px 50px;
+        font-size: 13px;
+        background: #1d3b5f;
+        color: #fff;
+    }
+    .msite-info-list2 > ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .msite-info-list2 > ul > li:not(:last-child){
+        border-right: 1px solid #666666;
+        margin-right: 13px;
+        padding-right: 13px;
+    }
+    .msite-info-list2 > ul > li:nth-child(2){
+        color: #677de4;
+    }
+    .container-wrap{
+        font-size: 13px;
+        text-align: center;
+    }
+    .company-info-box{
+        color: #919295;
+        line-height: 1.3;
+    }
+    .company-info-box > p > span{
+        display: none;
+    }
+    .mcompany-copy{
+        display: block;
+    }
+    .company-info-box > p:nth-child(1){
+        margin-bottom: 10px;
+    }
+    .company-info-box > p:nth-child(2){
         display: none;
     }
 }

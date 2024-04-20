@@ -38,6 +38,9 @@ body{
     margin-top: 40px;
     margin-bottom: 50px;
     font-size: 50px;
+    font-family: "Playfair Display", serif;
+    font-weight: 500;
+    letter-spacing: -0.3px;
 }
 .visual-text-box > p:first-of-type{
     color: #a66d3f;
@@ -51,7 +54,7 @@ body{
     background: #a66d3f;
     color: #fff;
     padding: 20px 80px;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 63px;
     font-size: 18px;
 }
@@ -232,9 +235,10 @@ body{
             display: none;
         }
         .visual-text-box > p:first-of-type{
-            font-size: 13px;
-            letter-spacing: 0;
+            font-size: 8px;
+            letter-spacing: 1.9px;
             margin-top: 20px;
+            font-weight: 100
         }
         .visual-text-box > .visual-text-h{
             display: block;
@@ -245,12 +249,16 @@ body{
             margin-bottom: 30px;
         }
         .visual-text-box > p:last-of-type{
-            font-size: 12px;
+            font-size: 11px;
+            line-height: 1.6;
+            font-weight: 100;
+            color: #588481;
+            letter-spacing: -0.1px;
         }
         .visual-text-box > button{
             margin-top: 33px;
             padding: 12px 48px;
-            font-size: 13px;
+            font-size: 12px;
         }
         .ecrf-card-wrap{
             flex-wrap: wrap;
@@ -275,7 +283,8 @@ body{
             box-shadow: initial;
         }
         .ecrf-event-more-box > p{
-            font-size: 13px;
+            font-size: 12px;
+            font-weight: initial;
         }
         .ecrf-tit-box{
             border-top: 1px solid #d9d9d9;
@@ -348,32 +357,5 @@ body{
         }
         .main-visual-wrap{
             flex-direction: column;
-        }
-        .hospital-wrap{
-            background: #142e4b;
-            padding: 0 40px;
-            color: #b1d7ec;
-            font-size: 13px;
-        }
-        .hospital-wrap > .container-wrap{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        .mospital-text-box > a{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            padding: 16px 0;
-        }
-        .mospital-text-box:first-child > a{
-            border-right: 1px solid #666666;
-            padding-right: 36px;    
-            margin-right: 36px;    
-        }
-        .mospital-text-box > a > p{
-            margin-right: 6px;
         }
 }
