@@ -90,7 +90,7 @@ body{
 }
 .ecrf-card-box:nth-child(1),
 .ecrf-card-box:nth-child(3){
-    background: #a66d3f;
+    background: #af6a33;
 }
 .ecrf-card-box:nth-child(2){
     background: #004242;
@@ -147,9 +147,10 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background: #a66d3f;
+    background: #b14a00;
     color: #fff;
     border-radius: 50px;
+    padding: 0 18px;
 }
 .ecrf-event-more-box > p{
     margin-right: 6px;
@@ -304,6 +305,12 @@ body{
         }
         .ecrf-event-wrap{
             flex-direction: column !important;
+        }
+        .ecrf-btn-box > a{
+            font-size: 13px;
+        }
+        .ecrf-btn-box > img{
+            width: 6px;
         }
         .sponsor-banner-wrap{
             margin: 42px 22px;
