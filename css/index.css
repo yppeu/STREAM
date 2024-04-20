@@ -94,6 +94,7 @@ body{
 }
 .ecrf-card-box:nth-child(2){
     background: #004242;
+    width: 280px;
 }
 .ecrf-card-con > img{
     margin-bottom: 30px;
@@ -159,6 +160,9 @@ body{
     font-size: 23px;
     font-weight: bold;
 }
+.ecrf-event-more-box{
+    margin-left: 44px;
+}
 .ecrf-event-more-box > p{
     font-size: 16px;
 }
@@ -173,6 +177,9 @@ body{
 }
 .ecrf-event-text-con > span{
     font-size: 16px;
+}
+.ecrf-event-text-con > span:last-child{
+    color: #535353;
 }
 
 
@@ -213,6 +220,7 @@ body{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            padding: 6px 23px;
         }
         .visual-img{
             width: 100% !important; 
@@ -252,16 +260,26 @@ body{
         .ecrf-event-wrap > img{
             display: none;
         }
-        .ecrf-event-title-box,
+        .ecrf-event-title-box{
+            justify-content: flex-end;
+            margin: 0 50px;
+            margin-bottom: 40px;
+        }
         .ecrf-event-text-con{
             justify-content: center;
+        }
+        .ecrf-event-text-con > span:last-child{
+            margin-left: 30px;
         }
         .ecrf-event-wrap{
             box-shadow: initial;
         }
+        .ecrf-event-more-box > p{
+            font-size: 13px;
+        }
         .ecrf-tit-box{
             border-top: 1px solid #d9d9d9;
-            padding-top: 60px;
+            padding-top: 40px;
         }
         .sponsor-wrap{
             margin: 92px 22px;
@@ -278,7 +296,7 @@ body{
             width: 76px;
         }
         .ecrf-event-box{
-            padding-right: 0;
+            padding: 0;
         }
         .ecrf-tit-box > p:first-child{
             font-size: 30px;
@@ -292,7 +310,7 @@ body{
             padding: 53px;
         }
         .ecrf-card-text-box > p:nth-child(1){
-            font-size: 23px;
+            font-size: 22px;
         }
         .ecrf-card-text-box > p{
             font-size: 14px;
