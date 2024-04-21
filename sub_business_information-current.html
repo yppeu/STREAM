@@ -63,8 +63,8 @@
                     <p>사업현황</p>
                 </div>
                 <div class="current-date-wrap">
-                    <input type="date" name="" id="yearInput" placeholder="YYYY">
-                    <input type="date" name="" id="monthInput" placeholder="MM">
+                    <input type="date" name="" id="" data-placeholder="2024" />
+                    <input type="date" name="" id="" data-placeholder="03" />
                 </div>
             </div>
             <div class="current-img-box">
@@ -179,22 +179,6 @@
         </div>
     </footer>
 
-    <script>
-        // 년도와 월을 설정하는 함수
-        function setYearAndMonth() {
-            var yearInput = document.getElementById('yearInput');
-            var monthInput = document.getElementById('monthInput');
-            
-            // 년도 설정
-            yearInput.value = '2024-01-01'; // 2024년 1월 1일을 기준으로 설정
-            
-            // 월 설정
-            monthInput.value = '2024-03-01'; // 2024년 3월을 기준으로 설정
-        }
-    
-        // 페이지 로드시 실행
-        window.onload = setYearAndMonth;
-    </script>
     
 </body>
 </html>
