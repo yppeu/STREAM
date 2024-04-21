@@ -7,6 +7,7 @@
     font-style: normal;
 }
 
+/* 모바일 */
 
 body{
     letter-spacing: -0.3px;
@@ -78,3 +79,5 @@ body{
 .business-wrap > img{
     margin-bottom: 273px;
 }
+
+
