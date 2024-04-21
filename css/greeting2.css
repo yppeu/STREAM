@@ -61,7 +61,7 @@ body{
     font-size: 36px;
     margin-bottom: 57px;
 }
-.greeting-wrap > p:last-child{
+.greeting-wrap > .greeting-con{
     font-size: 26px;
     line-height: 2;
 }
@@ -92,17 +92,15 @@ body{
     .greeting-wrap > p:first-child{
         font-size: 30px;
     }
-    .greeting-wrap > p:last-child{
-        font-size: 19px;
-        margin: 0 22px;
-    }
     .greeting-con{
         display: none;
     }
     .greeting-mcon{
         display: block;
-        line-height: 1;
+        line-height: 1.9;
         letter-spacing: -1px;
+        font-size: 19px;
+        margin: 0 22px;
     }
 }
 
