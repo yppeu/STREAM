@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact us</title>
+    <title>Main business information</title>
     <!-- css -->
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/contact-company.css">
+    <link rel="stylesheet" href="./css/sub_information_current.css">
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -38,6 +39,9 @@
                     <li><a href="#">마이페이지</a></li>
                 </ul>
             </nav>
+            <div class="ham">
+                <img src="./img/ham.png" alt="햄버거 메뉴 아이콘">
+            </div>
         </div>
     </header>
 
@@ -47,27 +51,27 @@
             <!-- main banner -->
             <div class="main-visual-wrap">
                 <div class="visual-img">
-                    <img src="./img/sub-greeting-banner.png" alt="메인 배너 이미지">
+                    <img src="./img/business-information-banner.png" alt="메인 배너 이미지">
+                </div>
+                <div class="mvisual-img">
+                    <img src="./img/mbusiness-information-banner.png" alt="메인 배너 이미지">
                 </div>
                 <div class="visual-text-box">
-                    <p>Contact us</p>
+                    <p>Main business information</p>
                 </div>
             </div>  
-            <div class="contact-wrap">
-                <div class="company-tit-box">
+            <div class="major-business-wrap">
+                <div class="major-business-tit-box">
                     <img src="./img/square.png" alt="사각형 이미지">
-                    <p>참여 기업</p>
+                    <p>사업현황</p>
                 </div>
-                <div class="contact-company-wrap">
-                    <div class="contact-company-box">
-                        <p>(주)지놈인 사이트</p>
-                        <p>https://genomeinsight.net</p>
-                    </div>
-                    <div class="contact-company-box">
-                        <p>(주)애임드바이오</p>
-                        <p>www.aimedbio.com/kor</p>
-                    </div>
+                <div class="current-date-wrap">
+                    <input type="date" name="" id="" data-placeholder="2024" />
+                    <input type="date" name="" id="" data-placeholder="03" />
                 </div>
+            </div>
+            <div class="current-img-box">
+                <img src="./img/sub-current-report.jpg" alt="소아고형암 진행현황 보고서 이미지">
             </div>
         </div>
     </main>
@@ -110,6 +114,20 @@
                         </li>
                     </ul>
                 </div>
+                <div class="mhospital-list-box">
+                    <div class="mospital-text-box">
+                        <a href="#">
+                            <p>서울대학교어린이병원</p>
+                            <img src="./img/arr-right.png" alt="화살표 이미지">
+                        </a>
+                    </div>
+                    <div class="mospital-text-box">
+                        <a href="#">
+                            <p>서울대학교암병원</p>
+                            <img src="./img/arr-right.png" alt="화살표 이미지">
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="site-info-wrap">
@@ -125,11 +143,26 @@
                 <li><a href="#">장례식장</a></li>
             </ul>
         </div>
+        <div class="msite-info-list">
+            <ul>
+                <li><a href="#">분당서울대병원</a></li>
+                <li><a href="#">보라매병원</a></li>
+                <li><a href="#">강남헬스케어센터</a></li>
+            </ul>
+        </div>
+        <div class="msite-info-list2">
+            <ul>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">PC버전보기</a></li>
+            </ul>
+        </div>
         <div class="company-info-wrap">
             <div class="container-wrap">
                 <div class="company-info-box">
-                    <p>주소 : 03080 서울특별시 종로구 대학로101(연건동 28) 대표전화 : 1588-5700 홈페이지 의견접수</p>
+                    <p>주소 : 03080 서울특별시 종로구 대학로101(연건동 28) 대표전화 : 1588-5700 <span>홈페이지 의견접수</span></p>
                     <p>copyright 2023 seoul national university hospital. all rights reserved</p>
+                    <p class="mcompany-copy">COPYRIGHT 2022 SUNH.ALL RIGHTSRESERVED.</p>
                 </div>
                 <div class="company-confirm-wrap">
                     <div class="company-confirm-box">
@@ -148,6 +181,7 @@
             </div>
         </div>
     </footer>
+
     
 </body>
 </html>

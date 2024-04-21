@@ -57,8 +57,28 @@ header > .container-wrap > nav > ul{
 header > .container-wrap > nav > ul > li:not(:last-child){
     margin-right: 44px;
 }
+
 .sgnb{
     display: none;
+}
+nav >  ul > li{
+    position: relative;
+}
+nav >  ul > li:nth-child(1) > a:before{
+    content: '';
+    width: 123%;
+    bottom: -61px;
+    left: 0;
+    border-bottom: 1px solid #a66d3f;
+    position: absolute;
+}
+nav >  ul > li:nth-child(1) > a::after{
+    content: '';
+    width: 50%;
+    bottom: -61px;
+    left: 0;
+    border-bottom: 5px solid #a66d3f;
+    position: absolute;
 }
 
 
