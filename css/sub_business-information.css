@@ -5,6 +5,13 @@
     font-style: normal;
 }
 
+/* 모바일 */
+.mvisual-img,
+.major-business-mcon,
+.major-business-mtit-box{
+    display: none;
+}
+
 
 body{
     letter-spacing: -0.3px;
@@ -126,4 +133,64 @@ body{
     font-size: 16px;
     text-align: center;
     font-weight: bold;
+}
+
+
+/* 모바일 */
+@media screen and (min-width:340px) and (max-width:400px){
+    header > .container-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6px 23px;
+    }
+    .visual-img{
+        display: none;
+    }
+    .mvisual-img{
+        display: block;
+    }
+    .visual-text-box > p{
+        font-size: 40px;
+    }
+    .main-visual-wrap{
+        margin: 0;
+    }
+    .major-business-tit-box{
+        margin: 80px 20px 30px;
+    }
+    .major-business-tit-box > p{
+        font-size: 30px;
+    }
+    .major-business-con{
+        display: none;
+    }
+    .major-business-mcon{
+        display: block;
+        margin: 0 20px;
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+        font-size: 17px;
+        text-decoration: underline;
+        line-height: 1.6;
+        letter-spacing: -1px;
+    }
+    .major-business-tit-box{
+        display: none;
+    }
+    .major-business-mtit-box{
+        display: block;
+        margin: 50px 0 20px;
+        font-size: 28px;
+    }
+    .major-business-mtit-box > div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 6px;
+    }
+    .major-business-mtit-box > div > img{
+        margin-right: 10px;
+    }
 }
