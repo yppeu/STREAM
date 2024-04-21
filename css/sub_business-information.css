@@ -193,4 +193,33 @@ body{
     .major-business-mtit-box > div > img{
         margin-right: 10px;
     }
+    .contest-business-box{
+        margin-right: 0;
+        width: 276px;
+    }
+    .professor-profile-box > img{
+        width: 105px;
+        height: auto;
+    }
+    .contest-business-card-list{
+        justify-content: center;
+    }
+    .professor-txt-box > p:first-child{
+        font-size: 20px;
+    }
+    .professor-txt-box > p:last-child{
+        font-size: 14px;
+        text-align: left;
+    }
+    .professor-box > p{
+        font-size: 15px;
+        letter-spacing: -1px;
+    }
+    .contest-business-box:nth-child(2) > .professor-box{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contest-business-box:nth-child(2) > .professor-box > p{
+        letter-spacing: -1.6px;
+    }
 }
