@@ -11,6 +11,11 @@
     font-style: normal;
 }
 
+/* 모바일 */
+.mvisual-img,
+.greeting-mcon{
+    display: none;
+}
 
 body{
     letter-spacing: -0.3px;
@@ -60,3 +65,44 @@ body{
     font-size: 26px;
     line-height: 2;
 }
+
+
+@media screen and (min-width:340px) and (max-width:400px){
+    header > .container-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6px 23px;
+    }
+    .visual-img{
+        display: none;
+    }
+    .mvisual-img{
+        display: block;
+    }
+    .visual-text-box > p{
+        font-size: 40px;
+    }
+    .main-visual-wrap{
+        margin-top: 0;
+    }
+    .greeting-wrap{
+        margin-bottom: 161px;
+    }
+    .greeting-wrap > p:first-child{
+        font-size: 30px;
+    }
+    .greeting-wrap > p:last-child{
+        font-size: 19px;
+        margin: 0 22px;
+    }
+    .greeting-con{
+        display: none;
+    }
+    .greeting-mcon{
+        display: block;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
+}
+
