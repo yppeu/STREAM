@@ -11,6 +11,11 @@
     font-style: normal;
 }
 
+/* 모바일 */
+.mvisual-img{
+    display: none;
+}
+
 
 body{
     letter-spacing: -0.3px;
@@ -88,7 +93,6 @@ input[type='date'] {
     border: 1px solid #e5e5e5;
     padding-left: 15px;
     font-size: 18px;
-    font-weight: bold;
     letter-spacing: -1px;
     font-family: "Pretendard-Regular", serif;
     cursor: pointer;
@@ -109,3 +113,49 @@ input[type='date'] {
         -webkit-appearance: none;
         display: none;
     }
+
+
+    /* 모바일 */
+@media screen and (min-width:340px) and (max-width:400px){
+    header > .container-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6px 23px;
+    }
+    .visual-img{
+        display: none;
+    }
+    .mvisual-img{
+        display: block;
+    }
+    .visual-text-box > p{
+        font-size: 40px;
+    }
+    .current-img-box{
+        margin-bottom: 200px;
+    }
+    .current-img-box > img{
+        width: 356px;
+    }
+    .main-visual-wrap{
+        margin: 0;
+    }
+    .major-business-tit-box{
+        margin-top: 60px;
+    }
+    .major-business-tit-box > p{
+        font-size: 30px;
+    }
+    .current-date-wrap{
+        flex-direction: column;
+    }
+    input[type='date'] {
+        width: 346px;
+        font-size: 16px;
+        margin: 0 auto !important; 
+    }
+    .current-date-wrap > input:first-child{
+        margin-bottom: 10px !important;
+    }
+}
