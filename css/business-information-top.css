@@ -11,6 +11,11 @@
     font-style: normal;
 }
 
+/* 모바일 */
+.mvisual-img,
+.major-business-mcon{
+    display: none;
+}
 
 body{
     letter-spacing: -0.3px;
@@ -54,13 +59,15 @@ body{
     font-size: 36px;
     letter-spacing: -1px;
     text-transform: uppercase;
+    font-weight: bold;
 }
 .major-business-con{
     text-align: center;
-    font-size: 26px;
+    font-size: 23px;
     text-decoration: underline;
     line-height: 1.6;
     margin-bottom: 58px;
+    letter-spacing: -1px;
 }
 .topdown-card-wrap{
     display: flex;
@@ -138,4 +145,69 @@ body{
     color: #a66d3f;
     padding: 30px;
     letter-spacing: -1px;
+}
+
+/* 모바일 */
+@media screen and (min-width:340px) and (max-width:400px){
+    header > .container-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 6px 23px;
+    }
+    .visual-img{
+        display: none;
+    }
+    .mvisual-img{
+        display: block;
+    }
+    .visual-text-box > p{
+        font-size: 40px;
+    }
+    .main-visual-wrap{
+        margin: 0;
+    }
+    .topdown-card-wrap{
+        flex-wrap: wrap;
+        margin: 0 46px;
+        margin-bottom: 120px;
+    }
+    .topdown-card-box:not(:last-child){
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .major-business-con{
+        display: none;
+    }
+    .major-business-tit-box{
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    .major-business-tit-box > p{
+        font-size: 30px;
+    }
+    .major-business-mcon{
+        display: block;
+        margin: 0 22px;
+        margin-bottom: 30px;
+        display: block;
+        text-align: center;
+        font-size: 17px;
+        text-decoration: underline;
+        line-height: 1.6;
+        letter-spacing: -1px;
+    }
+    .topdown-con > img{
+        width: 112px;
+    }
+    .topdown-txt > p:first-child{
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+    .topdown-txt > p:last-child{
+        text-align: left;
+    }
+    .topdown-card-box > p{
+        font-size: 20px !important;
+    }
 }
