@@ -17,6 +17,25 @@ body{
     letter-spacing: -0.3px;
     font-family: 'Pretendard-Regular', 'Playfair Display', sans-serif; 
 }
+nav >  ul > li{
+    position: relative;
+}
+nav >  ul > li:nth-child(1) > a:before{
+    content: '';
+    width: 123%;
+    bottom: -61px;
+    left: 0;
+    border-bottom: 1px solid #a66d3f;
+    position: absolute;
+}
+nav >  ul > li:nth-child(1) > a::after{
+    content: '';
+    width: 50%;
+    bottom: -61px;
+    left: 0;
+    border-bottom: 5px solid #a66d3f;
+    position: absolute;
+}
 
 /* main */
 .main-visual-wrap{
